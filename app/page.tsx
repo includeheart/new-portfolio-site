@@ -1,5 +1,6 @@
 import ProfileSection from './components/ProfileSection';
 import SkillsSection from './components/SkillsSection';
+import ProjectSection from './components/ProjectSection';
 import ExperienceSection from './components/ExperienceSection';
 
 export default function MinimalistPortfolio() {
@@ -16,6 +17,11 @@ export default function MinimalistPortfolio() {
 					{/* Skills Section */}
 					<div className="">
 						<SkillsSection />
+					</div>
+
+					{/* Projects Section */}
+					<div>
+						<ProjectSection />
 					</div>
 
 					{/* Experience Section */}

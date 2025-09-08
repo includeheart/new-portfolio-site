@@ -12,11 +12,11 @@ const SkillsSection = () => {
 		{
 			category: 'Backend',
 			items: ['Node.js', 'PostgreSQL'],
-			icon: ( 
-				<svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="#9DA2AF" strokeWidth="2">
-					<path d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2" />
-				</svg>
-			),
+			// icon: (
+			// 	<svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="#9DA2AF" strokeWidth="2">
+			// 		<path d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2" />
+			// 	</svg>
+			// ),
 		},
 		// Cloud category intentionally removed
 	];
@@ -33,7 +33,7 @@ const SkillsSection = () => {
 					{skills.map((skillGroup) => (
 						<div key={skillGroup.category}>
 							<div className="flex items-center space-x-2 mb-2">
-								{skillGroup.icon}
+								{/* {skillGroup.icon} // Icon placeholder commented out */}
 								<h4 className="text-sm font-medium text-gray-600 dark:text-gray-400">{skillGroup.category}</h4>
 							</div>
 							<div className="flex flex-wrap gap-1.5">
