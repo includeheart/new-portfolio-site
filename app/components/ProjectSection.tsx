@@ -6,6 +6,7 @@ type Project = {
   links?: {
     github?: string;
     demo?: string;
+    caseStudy?: string;
   };
 };
 
@@ -18,6 +19,7 @@ const ProjectSection = () => {
       links: {
         github: 'https://github.com/includeheart/recipe-app',
         demo: 'https://thawing-hamlet-36183-4fd2a2e83fd2.herokuapp.com/',
+        caseStudy: '/case_study.pdf',
       },
     },
   ];
@@ -58,6 +60,16 @@ const ProjectSection = () => {
                           rel="noopener noreferrer"
                         >
                           Demo
+                        </a>
+                      )}
+                      {proj.links?.caseStudy && (
+                        <a
+                          className="text-sm text-blue-600 dark:text-blue-400 hover:underline"
+                          href={proj.links.caseStudy}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Case Study
                         </a>
                       )}
                     </div>
