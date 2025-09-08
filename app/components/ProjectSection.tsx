@@ -17,7 +17,7 @@ const ProjectSection = () => {
       tech: ['Python', 'Django', 'SQLite'],
       links: {
         github: 'https://github.com/includeheart/recipe-app',
-        demo: 'https://thawing-hamlet-36183-4fd2a2e83fd2.herokuapp.com/',
+        demo: 'https://django-recipe-database-0fa4d236b83b.herokuapp.com/',
       },
     },
   ];
