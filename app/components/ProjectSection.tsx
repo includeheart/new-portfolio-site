@@ -19,7 +19,7 @@ const ProjectSection = () => {
       links: {
         github: 'https://github.com/includeheart/recipe-app',
         demo: 'https://django-recipe-database-0fa4d236b83b.herokuapp.com/',
-        caseStudy: '/case_study.pdf',
+        caseStudy: '/case_study(1).pdf',
       },
     },
   ];
