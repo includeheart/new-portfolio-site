@@ -15,12 +15,28 @@ const ProfileSection = () => {
 					<h2 className="text-lg md:text-xl text-gray-600 dark:text-gray-400">Junior Software Engineer</h2>
 					<div className="h-px w-16 bg-gray-200 dark:bg-gray-700 mx-auto my-4" />
 					<p className="text-sm md:text-base text-gray-600 dark:text-gray-400 max-w-xs mx-auto leading-relaxed">
-						Transitioned from retail and team management into software development, combining proven leadership and problem-solving skills with technical expertise in Python, React, and Agile methodologies to deliver efficient, user-focused applications.
+						Hi, I’m Patrick. I’m a former retail manager turned software developer with a passion for building clean, user-focused applications. My background in leading teams and solving problems under pressure now fuels my work in Python, React, and Agile development. I’m looking for opportunities as a junior developer where I can contribute immediately while continuing to grow my skills across front-end and back-end development.
 					</p>
 				</div>
-
 				<div className="space-y-4">
 					{/* Contact Info */}
+					<div className="flex items-center justify-center space-x-2">
+						<svg className="w-4 h-4 text-gray-600 dark:text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+							<path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" />
+							<path d="M14 2v6h6" />
+							<path d="M16 13H8" />
+							<path d="M16 17H8" />
+							<path d="M10 9H8" />
+						</svg>
+						<a
+							href="/patrick-kernan-resume.pdf"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white"
+						>
+							Check out my résumé
+						</a>
+					</div>
 					<div className="flex items-center justify-center space-x-2">
 						<svg className="w-4 h-4 text-gray-600 dark:text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
 							<path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
