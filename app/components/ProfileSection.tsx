@@ -67,7 +67,7 @@ const ProfileSection = () => {
 							</svg>
 						</a>
 						<a
-							href="https://www.linkedin.com/in/patrick-kernan-715775313"
+							href="https://www.linkedin.com/in/kernan-patrick"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="p-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white"
