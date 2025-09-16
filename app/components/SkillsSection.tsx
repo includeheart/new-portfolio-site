@@ -2,7 +2,7 @@ const SkillsSection = () => {
 	const skills = [
 		{
 			category: 'Languages',
-			items: ['Javascript', 'TypeScript', 'Python'],
+			items: ['JavaScript', 'TypeScript', 'Python'],
 			// icon: (
 			// 	<svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="#9DA2AF" strokeWidth="2">
 			// 		<path d="M8 3v3a2 2 0 01-2 2H3m18 0h-3a2 2 0 01-2-2V3M3 16v3a2 2 0 002 2h3m8-2h3a2 2 0 002-2v-3" />
