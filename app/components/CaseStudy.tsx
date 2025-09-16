@@ -32,7 +32,7 @@ const sections: Section[] = [
 		id: 'action',
 		title: 'Action',
 		body: ['To meet this challenge, I learned the fundamentals of Django, including app structure, template rendering, URL routing, and form handling. This included everything from the simple step of installing Django and learning how to use a virtual environment (something I was completely unfamiliar with.) CareerFoundry taught me the basics of creating a Django project, creating apps within the project, and what these terms really mean. It helped to view Django as a straightforward sort of building project. The apps are just pieces of the whole, which I could easily "plug-in" to the main project. CareerFoundry offered a great deal of freedom to experiment, which helped me to not only build my base knowledge, but also learn how to use resources (documentation, AI, etc.) to expedite my workflow. I then applied this knowledge to incrementally build my own recipe app. Starting with a basic home page and recipe list, I expanded the app with login functionality, user registration, and recipe creation forms.'],
-		layout: 'right',
+		layout: 'left',
 		gallery: [{ src: learningRopes, alt: 'Learning milestone' }],
 	},
 	{
@@ -48,7 +48,7 @@ const sections: Section[] = [
 		id: 'step_1',
 		title: 'Step 1: Learning the Basics',
 		body: ['I began by learning the Django framework — setting up apps within a project, working with templates, and connecting URLs. This gave me the scaffolding I needed to start building a real project. Simple, given steps like when to create an app and when not, where all new concepts to me. I was able to recognize the patterns in Django’s logical framework, which made things much easier.'],
-		layout: 'right',
+		layout: 'left',
 	},
 	{
 		id: 'step_2',
@@ -61,7 +61,7 @@ const sections: Section[] = [
 		id: 'step_3',
 		title: 'Step 3: Adding User Authentication',
 		body: ['To allow users to access recipes, I learned how to use Django forms to create a login page. This was my first exposure to integrating user authentication into a project. Altering the settings in the specified Python file gave me insight into the potential complexity of apps built in a framework like Django.'],
-		layout: 'right',
+		layout: 'left',
 		gallery: [{ src: loginPage, alt: 'Login page' }],
 	},
 	{
@@ -75,7 +75,7 @@ const sections: Section[] = [
 		title: 'Step 5: Enabling User Generated Content',
 		body: ['To make the app more dynamic, I added a recipe form where registered users could create and upload their own recipes. This turned the app from a static recipe list into a collaborative platform.'],
 		gallery: [{ src: contributeRecipeForm, alt: 'Contribute recipe form' }],
-		layout: 'right',
+		layout: 'left',
 	},
 	{
 		id: 'retrospective',
@@ -146,7 +146,7 @@ const CaseStudy = () => {
 			{/* Section grid F/Z pattern */}
 			<div className="max-w-7xl mx-auto px-6 py-12 space-y-20">
 				{sections.map((s, idx) => {
-					const isAlt = s.layout === 'right' || (s.layout === 'left' && idx % 2 === 1);
+					const isAlt = false; // Force all sections to left alignment (no alternation)
 					return (
 						<section
 							key={s.id}
