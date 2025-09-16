@@ -18,7 +18,6 @@ const SkillsSection = () => {
 			// 	</svg>
 			// ),
 		},
-		// Cloud category intentionally removed
 	];
 
 	return (
