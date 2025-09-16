@@ -145,7 +145,7 @@ const CaseStudy = () => {
 
 			{/* Section grid F/Z pattern */}
 			<div className="max-w-7xl mx-auto px-6 py-12 space-y-20">
-				{sections.map((s, idx) => {
+				{sections.map((s) => {
 					const isAlt = false; // Force all sections to left alignment (no alternation)
 					return (
 						<section
