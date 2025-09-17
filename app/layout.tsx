@@ -17,8 +17,12 @@ export const metadata: Metadata = {
 	description:
 		'Welcome to my portfolio! I am a passionate developer who believes in simplicity and effectiveness. I focus on creating straightforward solutions that solve real problems, with clean code and intuitive user experiences.',
 	icons: {
-		icon: '/favicon.ico',
-		shortcut: '/favicon.ico',
+		icon: [
+			{ url: '/favicon.ico' },
+			{ url: '/favicon-32x32.png', type: 'image/png', sizes: '32x32' },
+			{ url: '/favicon-16x16.png', type: 'image/png', sizes: '16x16' },
+		],
+		shortcut: '/favicon.ico'
 	},
 	keywords: [
 		'Software Developer',
