@@ -16,6 +16,10 @@ export const metadata: Metadata = {
 	title: 'moriCode',
 	description:
 		'Welcome to my portfolio! I am a passionate developer who believes in simplicity and effectiveness. I focus on creating straightforward solutions that solve real problems, with clean code and intuitive user experiences.',
+	icons: {
+		icon: '/favicon.ico',
+		shortcut: '/favicon.ico',
+	},
 	keywords: [
 		'Software Developer',
 		'Web Developer',
@@ -39,7 +43,7 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: 'moriCode',
 		description: 'Passionate developer creating simple and effective solutions. Explore my projects and development approach.',
-		url: 'https://your-domain.com',
+		url: 'https://moricode.vercel.app',
 		siteName: 'moriCode',
 		images: [
 			{
